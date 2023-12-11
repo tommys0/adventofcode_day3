@@ -11,7 +11,7 @@ public class AoC_Day3_Part1 {
 
     public static void main(String[] args) {
         long sum = 0;
-        String inputFileName = "text.txt"; // Replace with your input file name
+        String inputFileName = "text.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(inputFileName))) {
             List<String> list = br.lines().collect(Collectors.toList());
